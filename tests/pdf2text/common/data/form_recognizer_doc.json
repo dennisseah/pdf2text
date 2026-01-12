@@ -1,0 +1,421 @@
+{
+    "api_version": "2023-07-31",
+    "model_id": "prebuilt-document",
+    "content": "...",
+    "languages": [],
+    "pages": [],
+    "paragraphs": [
+        {
+            "role": "sectionHeading",
+            "content": "section header",
+            "bounding_regions": [],
+            "spans": []
+        },
+        {
+            "role": null,
+            "content": "content 1",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 100,
+                    "length": 117
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "content 2",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 200,
+                    "length": 30
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "Column 1",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 1000,
+                    "length": 15
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "Column 2",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 2000,
+                    "length": 20
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "row1 col1",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 3000,
+                    "length": 1
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "row1 col2",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 4000,
+                    "length": 7
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "row2 col1",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 5000,
+                    "length": 2
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "row2 col2",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 6000,
+                    "length": 6
+                }
+            ]
+        },
+        {
+            "role": null,
+            "content": "after table content",
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": []
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 100000,
+                    "length": 2
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "row_count": 2,
+            "column_count": 2,
+            "cells": [
+                {
+                    "kind": "columnHeader",
+                    "row_index": 0,
+                    "column_index": 0,
+                    "row_span": 1,
+                    "column_span": 1,
+                    "content": "Column 1",
+                    "bounding_regions": [
+                        {
+                            "page_number": 1,
+                            "polygon": [
+                                {
+                                    "x": 1.466,
+                                    "y": 5.2613
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.2613
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.5191
+                                },
+                                {
+                                    "x": 1.466,
+                                    "y": 5.5191
+                                }
+                            ]
+                        }
+                    ],
+                    "spans": [
+                        {
+                            "offset": 1000,
+                            "length": 15
+                        }
+                    ]
+                },
+                {
+                    "kind": "columnHeader",
+                    "row_index": 0,
+                    "column_index": 1,
+                    "row_span": 1,
+                    "column_span": 1,
+                    "content": "Column 2",
+                    "bounding_regions": [
+                        {
+                            "page_number": 1,
+                            "polygon": [
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.2613
+                                },
+                                {
+                                    "x": 5.2576,
+                                    "y": 5.2613
+                                },
+                                {
+                                    "x": 5.2624,
+                                    "y": 5.5191
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.5191
+                                }
+                            ]
+                        }
+                    ],
+                    "spans": [
+                        {
+                            "offset": 2000,
+                            "length": 20
+                        }
+                    ]
+                },
+                {
+                    "kind": "content",
+                    "row_index": 1,
+                    "column_index": 0,
+                    "row_span": 1,
+                    "column_span": 1,
+                    "content": "row1 col1",
+                    "bounding_regions": [
+                        {
+                            "page_number": 1,
+                            "polygon": [
+                                {
+                                    "x": 1.466,
+                                    "y": 5.5191
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.5191
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.7721
+                                },
+                                {
+                                    "x": 1.466,
+                                    "y": 5.7721
+                                }
+                            ]
+                        }
+                    ],
+                    "spans": [
+                        {
+                            "offset": 3000,
+                            "length": 1
+                        }
+                    ]
+                },
+                {
+                    "kind": "content",
+                    "row_index": 1,
+                    "column_index": 1,
+                    "row_span": 1,
+                    "column_span": 1,
+                    "content": "row1 col2",
+                    "bounding_regions": [
+                        {
+                            "page_number": 1,
+                            "polygon": [
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.5191
+                                },
+                                {
+                                    "x": 5.2624,
+                                    "y": 5.5191
+                                },
+                                {
+                                    "x": 5.2624,
+                                    "y": 5.7721
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.7721
+                                }
+                            ]
+                        }
+                    ],
+                    "spans": [
+                        {
+                            "offset": 4000,
+                            "length": 7
+                        }
+                    ]
+                },
+                {
+                    "kind": "content",
+                    "row_index": 2,
+                    "column_index": 0,
+                    "row_span": 1,
+                    "column_span": 1,
+                    "content": "row2 col1",
+                    "bounding_regions": [
+                        {
+                            "page_number": 1,
+                            "polygon": [
+                                {
+                                    "x": 1.466,
+                                    "y": 5.7721
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.7721
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 6.0252
+                                },
+                                {
+                                    "x": 1.466,
+                                    "y": 6.0252
+                                }
+                            ]
+                        }
+                    ],
+                    "spans": [
+                        {
+                            "offset": 5000,
+                            "length": 2
+                        }
+                    ]
+                },
+                {
+                    "kind": "content",
+                    "row_index": 2,
+                    "column_index": 1,
+                    "row_span": 1,
+                    "column_span": 1,
+                    "content": "row2 col2",
+                    "bounding_regions": [
+                        {
+                            "page_number": 1,
+                            "polygon": [
+                                {
+                                    "x": 3.1612,
+                                    "y": 5.7721
+                                },
+                                {
+                                    "x": 5.2624,
+                                    "y": 5.7721
+                                },
+                                {
+                                    "x": 5.2624,
+                                    "y": 6.0252
+                                },
+                                {
+                                    "x": 3.1612,
+                                    "y": 6.0252
+                                }
+                            ]
+                        }
+                    ],
+                    "spans": [
+                        {
+                            "offset": 6000,
+                            "length": 6
+                        }
+                    ]
+                }
+            ],
+            "bounding_regions": [
+                {
+                    "page_number": 1,
+                    "polygon": [
+                        {
+                            "x": 1.4526,
+                            "y": 5.2596
+                        },
+                        {
+                            "x": 5.2665,
+                            "y": 5.2602
+                        },
+                        {
+                            "x": 5.267,
+                            "y": 6.5261
+                        },
+                        {
+                            "x": 1.4526,
+                            "y": 6.5255
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "offset": 992,
+                    "length": 84
+                }
+            ]
+        }
+    ],
+    "key_value_pairs": [],
+    "styles": [],
+    "documents": []
+}
